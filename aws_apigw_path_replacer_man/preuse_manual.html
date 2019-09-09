@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<!--
+	Justice by freehtml5.co
+	Twitter: http://twitter.com/fh5co
+	URL: http://freehtml5.co
+-->
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>How to create IAM user</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Creating IAM user manual due to AWS API Gateway Path Replacer GUI" />
+	<meta name="keywords" content="AWS API Gateway Path Replacer GU" />
+	<meta name="author" content="sabacan509" />
+	<style>
+		body {
+			margin:0;
+			padding:0;
+			border:0;
+			background-color: #fcfcfc;
+		}
+		
+		h1 {
+			margin:0;
+			padding:0;
+			background-color: #666;
+			color: #fefefe;
+		}
+		
+		h2 {
+			margin:0;
+			padding: 10px;
+		}
+		
+		ul {
+			list-style-type: decimal-leading-zero;
+		}
+		
+		li {
+			padding: 10px;
+		}
+		
+		img {
+			box-sizing: border-box;
+			border: 2px solid #ccc;
+		}
+		
+	</style>
+</head>
+<body>
+	<h1>AWS API Gateway Path Replacer GUI</h1>
+	<h2>Preparing IAM user</h2>
+	<ul>
+		<li class="desc">
+			Login to the AWS console and open IAM console.
+		</li>
+		<li class="desc">
+			Select Users on left pain and click "Add user" button.<br/>
+			<img src="images/man_iam001.jpg" style="width: 600px; max-width: 100%"/>
+		</li>
+		<li class="desc">
+			Input User name you want.<br/>
+			Access type: Choose(check) "Programmatic access".<br/>
+			Then click "Next: Permissions" button beneath.<br/>
+		</li>
+		<li class="desc">
+			Select "Attach existing policies directly".<br/>
+			And choice "AmazonAPIGatewayAdministrator".<br/>
+			Then click "Next: Tags" button beneath.<br/>
+			<img src="images/man_iam002.jpg" style="width: 600px; max-width: 100%"/>
+		</li>
+		<li class="desc">
+			Click "Next: Review" button beneath and "Create User".<br/>
+		</li>
+		<li class="desc">
+			Copy Access key ID and Secret access key.<br/>
+			<img src="images/man_iam003.jpg" style="width: 600px; max-width: 100%"/>
+		</li>
+	</ul>
+</body>
+</html>
+
